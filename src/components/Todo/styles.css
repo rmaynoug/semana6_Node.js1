@@ -1,0 +1,36 @@
+.todo {
+    display: flex;
+    flex-direction:column;
+    width:10rem;
+    background: white;
+
+}
+
+.todo .row {
+    display: flex;
+    flex-direction:row;
+
+
+}
+
+.todo .name {
+    padding:0.3rem;
+    border:solid 1px;
+    margin: 0.3rem;
+
+}
+
+.todo .owner {
+    padding: 0.3rem;
+    border: solid 1px;
+    margin: 0.3rem;
+
+}
+
+.todo .description {
+
+    padding:03.rem;
+    border:solid 1px;
+    margin:0.3rem;
+    font-style: italic;
+}
